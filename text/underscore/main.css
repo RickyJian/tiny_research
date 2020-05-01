@@ -1,0 +1,15 @@
+/* button basic setting */
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+  padding: 15px 32px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* text underscore effect */
