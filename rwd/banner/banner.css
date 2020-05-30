@@ -35,10 +35,50 @@ body {
   text-align: center;
 }
 
-.banner-content > h1 {
-  font-size: 4.5rem;
-}
-
 .banner-content > p {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+  .banner-content > h1 {
+    font-size: 3rem;
+  }
+
+  .banner-content > p {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner-content > h1 {
+    font-size: 3rem;
+  }
+
+  .banner-content > p {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .banner-content > h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .banner-content > h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .banner-content > h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner-content > h1 {
+    font-size: 4.5rem;
+  }
 }
