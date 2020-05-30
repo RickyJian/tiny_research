@@ -2,7 +2,6 @@
 
 responsive web design
 
-<<<<<<< HEAD
 __Grid Size__
 
 | | XS ( < 576px ) | S ( >= 576px ) | M ( >= 768px ) | L ( >= 992px ) | XL ( >= 1200px ) |
@@ -16,8 +15,6 @@ __Grid Size__
 
 reference from: [bootstrap container](https://getbootstrap.com/docs/4.5/layout/overview/#containers)
 
-=======
->>>>>>> 3cd0c0b... init banner
 ## banner
 
 full screen banner
