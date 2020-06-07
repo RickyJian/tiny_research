@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+}
+
+.nav {
+  padding: 0px 30px;
+  background-color: #edf2f8;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin: 0px 5px;
+  padding: 16px 20px;
+}
+
+.nav-item:hover:not(.active) {
+  background-color: #d2dae7;
+}
+
+.nav-item > a {
+  color: #5b627e;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #fcf3b5;
+}
+
+.active > a {
+  text-decoration: none;
+}
