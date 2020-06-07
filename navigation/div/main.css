@@ -30,3 +30,7 @@ body {
 .active > a {
   text-decoration: none;
 }
+
+.right {
+  justify-content: flex-end;
+}
