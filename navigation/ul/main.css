@@ -6,13 +6,13 @@ body {
 .nav {
   padding: 0px 30px;
   background-color: #edf2f8;
-  display: flex;
   list-style-type: none;
 }
 
 .nav-item {
   margin: 0px 5px;
   padding: 16px 20px;
+  display: inline-block;
 }
 
 .nav-item:hover:not(.active) {
@@ -30,4 +30,8 @@ body {
 
 .active > a {
   text-decoration: none;
+}
+
+.right {
+  text-align: right;
 }
