@@ -38,3 +38,8 @@ body {
 .center {
   justify-content: center;
 }
+
+.nav-item-group {
+  width: 33.33%;
+  display: flex;
+}
