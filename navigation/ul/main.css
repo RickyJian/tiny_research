@@ -15,11 +15,18 @@ body {
   display: inline-block;
 }
 
+.nav-item-right {
+  margin: 0px 5px;
+  padding: 16px 20px;
+  float: right;
+}
+
 .nav-item:hover:not(.active) {
   background-color: #d2dae7;
 }
 
-.nav-item > a {
+.nav-item > a,
+.nav-item-right > a {
   color: #5b627e;
   text-decoration: none;
 }
